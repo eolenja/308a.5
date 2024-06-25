@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>
+   <div id="welcome">
+        <h1>Welcome!</h1>
+    </div></p>
+
+
+
+    <div class="container">
+        <h1>Pokémon Search</h1>
+        <div class="search-container">
+            <input type="text" id="pokemonInput" placeholder="Enter Pokémon name or ID">
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="pokemonData"></div>
+    </div>
+
+    <div class="container">
+        <h1>Random Pokémon Generator</h1>
+        <button onclick="getRandomPokemon()">Get Random Pokémon</button>
+        <div id="pokemonData">
+            <p>Click the button to generate a random Pokémon!</p>
+        </div>
+    </div>
+
+
+    <script src="app.js" type="module"></script>
+</body>
+</html>
