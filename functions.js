@@ -1,6 +1,4 @@
-// functions.js
 
-// Function to prompt user for their name and update welcome message
 export function promptName() {
     const firstName = prompt("Please enter your first name:");
 
@@ -12,7 +10,6 @@ export function promptName() {
     }
 }
 
-// Function to display Pokémon data on the webpage
 export function displayPokemon(pokemon) {
     const pokemonData = document.getElementById('pokemonData');
     pokemonData.innerHTML = `
@@ -24,7 +21,7 @@ export function displayPokemon(pokemon) {
     `;
 }
 
-// Function to handle search button click event
+
 export function setupSearchButton(searchPokemon) {
     const searchButton = document.getElementById('searchButton');
     const pokemonInput = document.getElementById('pokemonInput');
